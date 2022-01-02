@@ -33,18 +33,18 @@ jobs:
          working-directory: tempdirectorysirbrowow
          run: |
               NAME_OF_THIS_REPO="dummy"
-              GITHUB_ORG_NAME="boxaltdump"
-              GITLAB_ORG_NAME="boxdumps"
-              GITLAB_USERNAME="boxaltdumps"
-              GITHUB_USERNAME="box-automation1"
+              GITHUB_ORG_NAME="bruhminusprotesting"
+              GITLAB_ORG_NAME="bruhminusprotestingorg"
+              GITLAB_USERNAME="bruhminusprotestingorg"
+              GITHUB_USERNAME="bruhminusprotesting1"
               GIT_CONFIG_USERNAME="Box In A Box"
               GIT_CONFIG_EMAIL="evanferrao@gmail.com"
               GIT_GITHUB_TOKEN="${{ secrets.GIT_GITHUB_TOKEN }}"
               GITLAB_TOKEN="${{ secrets.GITLAB_TOKEN }}"
               TG_BOT_TOKEN="${{ secrets.TG_BOT_TOKEN }}"
               GITLAB_EMAIL="${{ secrets.GITLAB_EMAIL }}"
-              TG_CHAT_ID="@boxdumps"
-              GITLAB_HOSTNAME="gitgud.io" ## use 'gitlab.com' by default, or use your own github instance, or any public one
+              TG_CHAT_ID="@PrivateDumpHaiRe"
+              GITLAB_HOSTNAME="gitlab.com" ## use 'gitlab.com' by default, or use your own github instance, or any public one
               #echo "$GITLAB_ORG_NAME" > .orgname
               #echo "$GITLAB_HOSTNAME" > .gitlab_instance
               #echo "$GIT_GITHUB_TOKEN" > .github_token
